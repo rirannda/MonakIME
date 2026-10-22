@@ -1,0 +1,8 @@
+[InputMethod]
+Name=MonakIME
+Name[ja]=MonakIME（日本語）
+Icon=monakime
+Label=あ
+LangCode=ja
+Addon=monakime
+Configurable=False

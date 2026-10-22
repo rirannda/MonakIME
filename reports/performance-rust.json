@@ -1,0 +1,418 @@
+{
+  "platform": "Linux-7.2.11-arch1-1-x86_64-with-glibc2.44",
+  "machine": "x86_64",
+  "core": {
+    "core_cpu_s": 0.19460000000000002,
+    "core_p50_us": 76.178,
+    "core_p95_us": 217.274,
+    "core_p99_us": 232.33100000000002,
+    "core_peak_rss_kib": 18696,
+    "core_wall_s": 0.196644678,
+    "dictionary_entries": 300118,
+    "requests": 2000
+  },
+  "models": {
+    "zenz-v3.2-xsmall-Q5_K_M.gguf": {
+      "cold_ms": 41.313404,
+      "warm_median_ms": 18.645857,
+      "cases": [
+        {
+          "input": "kyouhatennkigaiidesu",
+          "candidates": [
+            "今日は天気がいいです",
+            "今日は天気がイイです",
+            "今日は天気が良いです",
+            "今日は天気が言いです",
+            "今日は天鬼がいいです",
+            "今日は天鬼がイイです",
+            "今日は天鬼が良いです",
+            "今日は天鬼が言いです",
+            "今日は転機がいいです"
+          ],
+          "model_error": "",
+          "model_ms": 41.313404,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "きょうはてんきがいいです",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "きょうは",
+              "text": "今日は"
+            },
+            {
+              "reading": "てんきが",
+              "text": "天気が"
+            },
+            {
+              "reading": "いいです",
+              "text": "いいです"
+            }
+          ]
+        },
+        {
+          "input": "nihongonyuuryoku",
+          "candidates": [
+            "日本語入力",
+            "日本語にゅうりょく",
+            "にほんご入力",
+            "日本語ニュウリョク",
+            "ニホンゴ入力",
+            "にほんごにゅうりょく",
+            "にほんごニュウリョク",
+            "ニホンゴにゅうりょく",
+            "ニホンゴニュウリョク"
+          ],
+          "model_error": "",
+          "model_ms": 16.725968,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "にほんごにゅうりょく",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "にほんご",
+              "text": "日本語"
+            },
+            {
+              "reading": "にゅうりょく",
+              "text": "入力"
+            }
+          ]
+        },
+        {
+          "input": "watashihanihongowohanashimasu",
+          "candidates": [
+            "私は日本語を話します",
+            "私は日本語をはなします",
+            "私は日本語を話ます",
+            "わたしは日本語をはなします",
+            "わたしは日本語を話ます",
+            "わたしは日本語を話します",
+            "渡しは日本語をはなします",
+            "渡しは日本語を話ます",
+            "私は日本語を離します"
+          ],
+          "model_error": "",
+          "model_ms": 24.836078,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "わたしはにほんごをはなします",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "わたしは",
+              "text": "私は"
+            },
+            {
+              "reading": "にほんごを",
+              "text": "日本語を"
+            },
+            {
+              "reading": "はなします",
+              "text": "はなします"
+            }
+          ]
+        },
+        {
+          "input": "toukyoudaigaku",
+          "candidates": [
+            "東京大学",
+            "とうきょうだいがく",
+            "トウキョウダイガク"
+          ],
+          "model_error": "",
+          "model_ms": 15.295965,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "とうきょうだいがく",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "とうきょうだいがく",
+              "text": "東京大学"
+            }
+          ]
+        },
+        {
+          "input": "jinkouchinou",
+          "candidates": [
+            "人工知能",
+            "じんこうちのう",
+            "ジンコウチノウ"
+          ],
+          "model_error": "",
+          "model_ms": 13.465057000000002,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "じんこうちのう",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "じんこうちのう",
+              "text": "人工知能"
+            }
+          ]
+        },
+        {
+          "input": "hashiwowataru",
+          "candidates": [
+            "橋を渡る",
+            "橋をわたる",
+            "橋を弥",
+            "箸をわたる",
+            "箸を渡る",
+            "橋を渉",
+            "橋を航",
+            "橋を径",
+            "橋を渡"
+          ],
+          "model_error": "",
+          "model_ms": 15.842907,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "はしをわたる",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "はしを",
+              "text": "橋を"
+            },
+            {
+              "reading": "わたる",
+              "text": "わたる"
+            }
+          ]
+        },
+        {
+          "input": "hashidegohanwotaberu",
+          "candidates": [
+            "箸でご飯を食べる",
+            "橋でご飯を食べる",
+            "橋でゴハンを食べる",
+            "橋でごはんを食べる",
+            "箸でゴハンを食べる",
+            "箸でごはんを食べる",
+            "橋で御飯を食べる",
+            "端でご飯を食べる",
+            "端でゴハンを食べる"
+          ],
+          "model_error": "",
+          "model_ms": 22.539904999999997,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "はしでごはんをたべる",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "はしで",
+              "text": "橋で"
+            },
+            {
+              "reading": "ごはんを",
+              "text": "ご飯を"
+            },
+            {
+              "reading": "たべる",
+              "text": "食べる"
+            }
+          ]
+        },
+        {
+          "input": "kyouhagoogledekensaku",
+          "candidates": [
+            "今日はgoogleで検索",
+            "今日はgoogleデ検索",
+            "今日はgoogle出検索",
+            "共はgoogleで検索",
+            "共はgoogleデ検索",
+            "共はgoogle出検索",
+            "今日はgoogleで健作",
+            "今日はgoogleデ健作",
+            "今日はgoogle出健作"
+          ],
+          "model_error": "",
+          "model_ms": 34.11668,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "きょうはgoogleでけんさく",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "きょうは",
+              "text": "今日は"
+            },
+            {
+              "reading": "google",
+              "text": "google"
+            },
+            {
+              "reading": "で",
+              "text": "で"
+            },
+            {
+              "reading": "けんさく",
+              "text": "検索"
+            }
+          ]
+        },
+        {
+          "input": "githubdecodewokaku",
+          "candidates": [
+            "githubでcodeを書く",
+            "githubでcodeを各",
+            "githubでcodeヲ書く",
+            "githubでcodeヲ各",
+            "githubデcodeを書く",
+            "githubデcodeを各",
+            "githubデcodeヲ書く",
+            "githubデcodeヲ各",
+            "github出codeを書く"
+          ],
+          "model_error": "",
+          "model_ms": 36.891729999999995,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "githubでcodeをかく",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "github",
+              "text": "github"
+            },
+            {
+              "reading": "で",
+              "text": "で"
+            },
+            {
+              "reading": "code",
+              "text": "code"
+            },
+            {
+              "reading": "を",
+              "text": "を"
+            },
+            {
+              "reading": "かく",
+              "text": "書く"
+            }
+          ]
+        },
+        {
+          "input": "shinkansen",
+          "candidates": [
+            "新幹線",
+            "新感線",
+            "新感染",
+            "新甘泉",
+            "しんかんせん",
+            "シンカンセン"
+          ],
+          "model_error": "zenz output rejected by UTF-8/control/length checks",
+          "model_ms": 18.645857,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": false,
+          "reading": "しんかんせん",
+          "reading_verified": false,
+          "segments": [
+            {
+              "reading": "しんかんせん",
+              "text": "新幹線"
+            }
+          ]
+        }
+      ],
+      "idle": {
+        "rss_kib_after_conversion": 46436,
+        "peak_rss_kib": 46436,
+        "threads": 2,
+        "idle_window_s": 1.000628916000096,
+        "idle_cpu_s": 0.0,
+        "idle_cpu_percent_one_core": 0.0,
+        "conversion": {
+          "candidates": [
+            "日本語入力",
+            "日本語にゅうりょく",
+            "にほんご入力",
+            "日本語ニュウリョク",
+            "ニホンゴ入力",
+            "にほんごにゅうりょく",
+            "にほんごニュウリョク",
+            "ニホンゴにゅうりょく",
+            "ニホンゴニュウリョク"
+          ],
+          "model_error": "",
+          "model_ms": 49.339252,
+          "mozc": false,
+          "mozc_error": "",
+          "neural": true,
+          "reading": "にほんごにゅうりょく",
+          "reading_verified": true,
+          "segments": [
+            {
+              "reading": "にほんご",
+              "text": "日本語"
+            },
+            {
+              "reading": "にゅうりょく",
+              "text": "入力"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "core_idle": {
+    "rss_kib_after_conversion": 10204,
+    "peak_rss_kib": 16104,
+    "threads": 1,
+    "idle_window_s": 1.0005138359997545,
+    "idle_cpu_s": 0.0,
+    "idle_cpu_percent_one_core": 0.0,
+    "conversion": {
+      "candidates": [
+        "日本語入力",
+        "日本語にゅうりょく",
+        "にほんご入力",
+        "日本語ニュウリョク",
+        "ニホンゴ入力",
+        "にほんごにゅうりょく",
+        "にほんごニュウリョク",
+        "ニホンゴにゅうりょく",
+        "ニホンゴニュウリョク"
+      ],
+      "model_error": "",
+      "model_ms": 0.0,
+      "mozc": false,
+      "mozc_error": "",
+      "neural": false,
+      "reading": "にほんごにゅうりょく",
+      "reading_verified": false,
+      "segments": [
+        {
+          "reading": "にほんご",
+          "text": "日本語"
+        },
+        {
+          "reading": "にゅうりょく",
+          "text": "入力"
+        }
+      ]
+    }
+  },
+  "energy": {
+    "measured": false,
+    "readable_package_counters": [],
+    "reason": "No process-attributed electrical energy measurement was performed. Idle CPU and latency are resource proxies only."
+  }
+}

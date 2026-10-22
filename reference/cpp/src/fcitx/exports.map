@@ -1,0 +1,7 @@
+/* Copyright (C) 2026 rirannda
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+{
+    global: fcitx_addon_factory_instance;
+    local: *;
+};

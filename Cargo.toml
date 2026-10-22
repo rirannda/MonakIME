@@ -1,0 +1,37 @@
+# Copyright (C) 2026 rirannda
+# SPDX-License-Identifier: GPL-3.0-or-later
+[package]
+name = "monakime"
+authors = ["rirannda"]
+version = "0.2.0"
+edition = "2024"
+rust-version = "1.85"
+license = "GPL-3.0-or-later"
+description = "A small Japanese IME: live Mozc conversion and explicit CPU Zenz"
+build = "build.rs"
+
+[lib]
+crate-type = ["rlib", "staticlib"]
+
+[[bin]]
+name = "monakime-cli"
+path = "src/main.rs"
+
+[features]
+default = []
+llama = []
+
+[dependencies]
+libc = "=0.2.189"
+memmap2 = "=0.9.11"
+serde_json = "=1.0.151"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+strip = "debuginfo"
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"

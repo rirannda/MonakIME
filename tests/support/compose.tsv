@@ -1,0 +1,10 @@
+# Both readings exist: explicit nn must prefer the ん+vowel interpretation.
+たんい	単位	4
+たんに	単に	3
+かちめ	勝ち目	6
+あんない	案内	3
+おんな	女	4
+# Overlapping real readings must not undo the intended nn boundary.
+こんい	懇意	6
+こんいち	今イチ	6
+んには	んには	7

@@ -1,0 +1,27 @@
+{
+  "scope": "2 handwritten functional cases; not general accuracy or a Meltype comparison",
+  "model": "zenz-v3.2-xsmall-Q5_K_M.gguf",
+  "total": 2,
+  "dictionary_matches": 2,
+  "zenz_matches": 2,
+  "cases": [
+    {
+      "input": "Googledeshirabete,GitHubnoko-dowosyuuseishimashita.",
+      "expected": "Googleで調べて、GitHubのコードを修正しました。",
+      "dictionary": "Googleで調べて、GitHubのコードを修正しました。",
+      "zenz": "Googleで調べて、GitHubのコードを修正しました。",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "CPUsiyourituha12.5%,memorishiyouryouha256MBdesita.",
+      "expected": "CPU使用率は12.5%、メモリ使用量は256MBでした。",
+      "dictionary": "CPU使用率は12.5%、メモリ使用量は256MBでした。",
+      "zenz": "CPU使用率は12.5%、メモリ使用量は256MBでした。",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/build*/
+/target/
+/stage/
+/models/
+/third_party/llama.cpp/
+/third_party/mozc/meltype_mozc_helper
+/data/system.nimedic
+/data/system.nimedic.sources.json
+# Local agent state, credentials, and download caches are not project sources.
+/.agents/
+/.aws/
+/.codex/
+/.cache/
+/third_party/mozc/bin/
+__pycache__/
+*.pyc

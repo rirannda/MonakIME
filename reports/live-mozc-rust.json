@@ -1,0 +1,42 @@
+{
+  "scope": "CLI plus real Mozc child; excludes fcitx5 UI; warm OS file cache; no Zenz",
+  "requests": 100,
+  "cold_request_ms": 91.09766300025512,
+  "warm_p50_ms": 1.7024700002821191,
+  "warm_p95_ms": 4.772279999997409,
+  "conversion_cpu_s": 0.23,
+  "cli_rss_kib": 11148,
+  "mozc_rss_kib": 21396,
+  "total_rss_kib": 32544,
+  "idle_seconds": 1,
+  "idle_cpu_ticks": 0,
+  "clock_ticks_per_second": 100,
+  "power_watts": null,
+  "examples": [
+    {
+      "raw": "nihongo",
+      "reading": "にほんご",
+      "preview": "日本語"
+    },
+    {
+      "raw": "kyouhatennkigaiidesu",
+      "reading": "きょうはてんきがいいです",
+      "preview": "今日は天気がいいです"
+    },
+    {
+      "raw": "hashidegohanwotaberu",
+      "reading": "はしでごはんをたべる",
+      "preview": "橋でご飯を食べる"
+    },
+    {
+      "raw": "Googledeshirabete,GitHubnoko-dowosyuuseishimashita.",
+      "reading": "Googleでしらべて、GitHubのこーどをしゅうせいしました。",
+      "preview": "Googleで調べて、GitHubのコードを修正しました。"
+    },
+    {
+      "raw": "CPUsiyourituha12.5%,memorishiyouryouha256MBdesita.",
+      "reading": "CPUしようりつは12.5%、めもりしようりょうは256MBでした。",
+      "preview": "CPU使用率は12.5%、メモリ使用量は256MBでした。"
+    }
+  ]
+}

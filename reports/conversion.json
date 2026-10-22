@@ -1,0 +1,99 @@
+{
+  "scope": "10 handwritten functional cases; not general accuracy or a Meltype comparison",
+  "model": "zenz-v3.2-xsmall-Q5_K_M.gguf",
+  "total": 10,
+  "dictionary_matches": 7,
+  "zenz_matches": 10,
+  "cases": [
+    {
+      "input": "kyouhatennkigaiidesu",
+      "expected": "今日は天気がいいです",
+      "dictionary": "今日は天気がいいです",
+      "zenz": "今日は天気がいいです",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "nihongonyuuryoku",
+      "expected": "日本語入力",
+      "dictionary": "日本語入力",
+      "zenz": "日本語入力",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "watashihanihongowohanashimasu",
+      "expected": "私は日本語を話します",
+      "dictionary": "私は日本語をはなします",
+      "zenz": "私は日本語を話します",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "toukyoudaigaku",
+      "expected": "東京大学",
+      "dictionary": "東京大学",
+      "zenz": "東京大学",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "jinkouchinou",
+      "expected": "人工知能",
+      "dictionary": "人工知能",
+      "zenz": "人工知能",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "hashiwowataru",
+      "expected": "橋を渡る",
+      "dictionary": "橋をわたる",
+      "zenz": "橋を渡る",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "hashidegohanwotaberu",
+      "expected": "箸でご飯を食べる",
+      "dictionary": "橋でご飯を食べる",
+      "zenz": "箸でご飯を食べる",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "kyouhagoogledekensaku",
+      "expected": "今日はgoogleで検索",
+      "dictionary": "今日はgoogleで検索",
+      "zenz": "今日はgoogleで検索",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "githubdecodewokaku",
+      "expected": "githubでcodeを書く",
+      "dictionary": "githubでcodeを書く",
+      "zenz": "githubでcodeを書く",
+      "neural_accepted": true,
+      "reading_verified": true,
+      "model_error": ""
+    },
+    {
+      "input": "shinkansen",
+      "expected": "新幹線",
+      "dictionary": "新幹線",
+      "zenz": "新幹線",
+      "neural_accepted": false,
+      "reading_verified": false,
+      "model_error": "zenz output rejected by UTF-8/control/length checks"
+    }
+  ]
+}

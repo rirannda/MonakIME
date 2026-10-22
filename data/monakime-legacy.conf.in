@@ -1,0 +1,9 @@
+[InputMethod]
+# Compatibility ID for profiles created before the rename.
+Name=MonakIME (legacy ID)
+Name[ja]=MonakIME（旧ID互換）
+Icon=monakime
+Label=あ
+LangCode=ja
+Addon=monakime
+Configurable=False

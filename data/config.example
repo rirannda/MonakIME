@@ -1,0 +1,14 @@
+# ~/.config/monakime/config
+# Paths are absolute. Environment variables MONAKIME_* override these options.
+threads=2
+inference_budget_ms=500
+max_input_chars=128
+learning=true
+zenz=true
+live_conversion=true
+live_delay_ms=25
+# mozc_helper=/absolute/path/to/meltype_mozc_helper
+# mozc_profile=/absolute/path/to/monakime/mozc
+# model=/absolute/path/to/zenz-v3.2-xsmall-Q5_K_M.gguf
+# system_dictionary=/absolute/path/to/system.nimedic
+# user_dictionary=/absolute/path/to/user.tsv

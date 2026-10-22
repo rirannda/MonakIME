@@ -1,0 +1,9 @@
+[Addon]
+Name=MonakIME
+Name[ja]=MonakIME
+Category=InputMethod
+Version=@PROJECT_VERSION@
+Library=monakime
+Type=SharedLibrary
+OnDemand=True
+Configurable=False
